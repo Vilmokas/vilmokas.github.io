@@ -18,6 +18,21 @@ html, body {
     margin-bottom: 20px;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40!important;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+ }
+
+ .footer p{
+     vertical-align: middle;
+ }
+
 .summonerIcon{
     position: relative;
     display: block;
