@@ -1,6 +1,6 @@
 /*add this to your html -> <script src="https://storage.googleapis.com/code-snippets/rapidapi.min.js"></script> */
 var rapid = new RapidAPI("fuckthisshit_5b92e419e4b09cbc25b02756", "96b31d0c-9e9a-47e0-9823-03579240a65a");
-var apiKey = 'RGAPI-7f154abb-13ab-4e1c-9136-8628c59c7783';
+var apiKey = 'RGAPI-a0d18dec-541a-473c-9240-10b24f16c760';
 var version = '8.17.1'; //API version
 var region = 'eun1';
 
