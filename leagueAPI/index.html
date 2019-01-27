@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- My CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popupStyle.css">
+
+    <title>League Of Legends API</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+      <form class="form-inline my-2 my-lg-0" onsubmit="searchSummoner()">
+          <input class="form-control mr-sm-2" type="text" placeholder="Summoner Name" id="summonersNameInput">
+          
+          <button type="button" id="myBtn" class="btn btn-light" style="margin-right: 5px;" value="na1">NA</button>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>REGION:</p>
+              <button onclick="selectRegion()" type="button" class="btn btn-secondary regionButton" value="euw1">Europe West</button>
+              <button onclick="selectRegion()" type="button" class="btn btn-secondary regionButton" value="eun1">Europe North East</button>
+              <button onclick="selectRegion()" type="button" class="btn btn-secondary regionButton" value="na1">North America</button>
+            </div>
+          </div>
+
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+    
+        <div id="loader"></div>
+    
+    <div class="container-fluid" id="page">
+      <div class="row">
+        <div class="col-sm-3">
+            <div class="summonerIcon">
+              <div class="summonerBorder" id="summonerBorder"></div>
+              <img src="http://opgg-static.akamaized.net/images/profile_icons/profileIcon2075.jpg" id="summonerIcon">
+              <span class="summonerLevel" id="summonerLevel">100</span>
+            </div>
+          <span class="summonerName" id="summonerName">name</span>
+          <span class="badge badge-dark" id="summonerLP">10 LP</span>
+          <br>
+          <span class="text" id="summonerWins">10W | 11L (5%)</span>
+        </div>
+        <div class="col-sm-9" id="matchHistory">
+          <div class="matchPlayed text">
+            <img src="http://opgg-static.akamaized.net/images/profile_icons/profileIcon2075.jpg">
+            <div class="championLevel">10</div>
+            <div class="gameInfo">
+              <b>5v5 Ranked Solo</b><br>99 days ago
+            </div>
+            <div class="gameInfo">
+              <img src="http://ddragon.leagueoflegends.com/cdn/5.5.1/img/ui/score.png">
+              <div class="kda">8/9/10<br><span class="win">LOSS</span></div>
+            </div>
+            <div class="scores">
+              <img src="http://ddragon.leagueoflegends.com/cdn/5.5.1/img/ui/minion.png">
+              <div class="scoresT">150</div>
+            </div>
+            <div class="scores">
+              <img src="http://ddragon.leagueoflegends.com/cdn/5.5.1/img/ui/minion.png">
+              <div class="scoresT">150</div>
+            </div>
+            <div class="scores">
+              <img src="http://ddragon.leagueoflegends.com/cdn/5.5.1/img/ui/minion.png">
+              <div class="scoresT">150</div>
+            </div>
+            <div class="items">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png">
+              <div class="noItem"></div>
+              <div class="noItem"></div>
+              <div class="noItem"></div>
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png">
+              <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- popup script -->
+    <script src="popupScript.js"></script>
+
+    <!-- RapidAPI scripts -->
+    <script src='https://s3.amazonaws.com/rapidapi-prod-fe_static/rapidapi.min.js'></script>
+    <script src="https://storage.googleapis.com/code-snippets/rapidapi.min.js"></script>
+    <script src="leagueAPI.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <div class="footer">
+      <p><small>Version: 1.0.0</small></p>
+    </div>
+  </body>
+
+  
+</html>
