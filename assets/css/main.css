@@ -2661,7 +2661,7 @@ input, select, textarea {
 		background-image: url("../../images/banner4.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 14em;
 		text-align: center;
 		position: relative;
 	}
@@ -3337,3 +3337,12 @@ input, select, textarea {
 			}
 
 	}
+
+/* custom */
+.featured-date
+{
+	text-align: right;
+	font-size: small;
+	color: #919191;
+	margin-right: 20px;
+}

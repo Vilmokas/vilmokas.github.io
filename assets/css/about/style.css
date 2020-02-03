@@ -149,7 +149,7 @@ i { font-size: 16px; }
 .info_timeline dl dt i { float: left; margin-right: 5px; }
 .info_timeline dl dt em { color: #ccc; margin-left: 3px; }
 .info_timeline dl dd { float: right; line-height: 25px; }
-.info_timeline dl dd b,.info_timeline dl dd em { border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; float: left; width: 10px; height: 10px; margin: 7px 5px 0 0; }
+.info_timeline dl dd b,.info_timeline dl dd em { border-radius: 15%; -webkit-border-radius: 15%; -moz-border-radius: 15%; float: left; width: 30px; height: 10px; margin: 7px 5px 0 0; }
 .info_timeline dl dd b { background-color: #666; }
 .info_timeline dl dd em { background-color: #ddd; }
 .footer { width: 94%; background-color: #666; color: #fff; padding: 15px 3%; }
