@@ -2800,10 +2800,11 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 
 .article-technologies {
 	display: block;
-	width: 90%;
-	margin: auto;
-	margin-bottom: 1em;
+	width: 100%;
+	margin-bottom: 10em;
 	font-weight: bold;
+	overflow: visible;
+	height: 100%;
 }
 
 .article-technologies span {
@@ -2813,4 +2814,10 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	color: white;
 	border-radius: 5px;
 	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.article-technologies .col 
+{
+	float: left;
 }
