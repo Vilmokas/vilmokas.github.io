@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Vilmantas Jakniūnas Portfolio</title>
-    <link>https://vilmokas.github.io/</link>
-    <description>Recent content on Vilmantas Jakniūnas Portfolio</description>
+    <title>html on Vilmantas Jakniūnas Portfolio</title>
+    <link>https://vilmokas.github.io/tags/html/</link>
+    <description>Recent content in html on Vilmantas Jakniūnas Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 12:33:24 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2022 12:33:24 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML 5 Color Picker</title>
       <link>https://vilmokas.github.io/posts/html5-color-picker/</link>
@@ -25,15 +25,6 @@ Code</description>
       <guid>https://vilmokas.github.io/posts/react-to-do-list/</guid>
       <description>Demo
 Code</description>
-    </item>
-    
-    <item>
-      <title>Global Game Jam 2020 - Scepter Repairs</title>
-      <link>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</link>
-      <pubDate>Thu, 18 Aug 2022 12:32:39 +0300</pubDate>
-      
-      <guid>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</guid>
-      <description>Demo</description>
     </item>
     
     <item>
