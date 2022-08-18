@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/Assets/Styles/App.css"],"names":[],"mappings":"AAAA,KACE,iBACF,CAEA,GACE,eACF","file":"main.ddabbb97.chunk.css","sourcesContent":["html {\r\n  text-align: center;\r\n}\r\n\r\nh1 {\r\n  padding-top: 30%;\r\n}\r\n"]}
