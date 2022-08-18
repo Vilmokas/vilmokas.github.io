@@ -6,15 +6,36 @@
     <description>Recent content on Vilmantas Jakniūnas Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 12:33:24 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2022 18:15:26 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stack Clone</title>
+      <link>https://vilmokas.github.io/posts/stack-clone/</link>
+      <pubDate>Thu, 18 Aug 2022 18:15:26 +0300</pubDate>
+      
+      <guid>https://vilmokas.github.io/posts/stack-clone/</guid>
+      <description>Description Stack is a very popular android game where player has to click the screen when block is over the pillar. Part of the block which is not over the pillar, gets cut off and new, smaller, block is spawned in old block&amp;rsquo;s place.
+Features Tap the screen to place the block Split block into two parts, one part which stays on the pillar and other which falls. Display high-score.</description>
+    </item>
+    
+    <item>
+      <title>Flappy Bird Clone</title>
+      <link>https://vilmokas.github.io/posts/flappy-bird-clone/</link>
+      <pubDate>Thu, 18 Aug 2022 18:14:59 +0300</pubDate>
+      
+      <guid>https://vilmokas.github.io/posts/flappy-bird-clone/</guid>
+      <description>Description Flappy bird was a very popular mobile game when I was in still in school, so now, when I learned more about game development, I wanted to recreate it.
+Features Tap the screen to add force to the bird. End game when bird hits a pipe or ground. Display current and highest scores. Acknowledgments Dong NguyenFlappy Bird</description>
+    </item>
+    
     <item>
       <title>HTML 5 Color Picker</title>
       <link>https://vilmokas.github.io/posts/html5-color-picker/</link>
       <pubDate>Thu, 18 Aug 2022 12:33:24 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/html5-color-picker/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+Features Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus</description>
     </item>
     
     <item>
@@ -23,8 +44,8 @@ Code</description>
       <pubDate>Thu, 18 Aug 2022 12:33:04 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/react-to-do-list/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple to-do list made with React.js.
+Features Add items to the list. Remove items from the list. Mark items as completed. Known Issues List doesn&amp;rsquo;t save when refreshing the page. </description>
     </item>
     
     <item>
@@ -33,7 +54,8 @@ Code</description>
       <pubDate>Thu, 18 Aug 2022 12:32:39 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</guid>
-      <description>Demo</description>
+      <description>Description Global Game Jam 2020 game made focusing on the theme &amp;ldquo;Repair&amp;rdquo;. In this game player has to repair other mages&amp;rsquo; scepters by saying the correct combination of spells. If player doesn&amp;rsquo;t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
+Features 3d point and click movement Spell casting by selecting runes shows on screen Acknowledgments Ričardas</description>
     </item>
     
     <item>
@@ -42,8 +64,8 @@ Code</description>
       <pubDate>Thu, 18 Aug 2022 12:10:18 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/react-static-restaurant/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple restaurant front page website made with React.js. Site doesn&amp;rsquo;t offer any functionality and was just made to try out React.
+Acknowledgments freepic</description>
     </item>
     
   </channel>

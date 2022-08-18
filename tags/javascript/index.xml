@@ -13,8 +13,9 @@
       <pubDate>Thu, 18 Aug 2022 12:33:24 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/html5-color-picker/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+Features Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus</description>
     </item>
     
     <item>
@@ -23,8 +24,8 @@ Code</description>
       <pubDate>Thu, 18 Aug 2022 12:33:04 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/react-to-do-list/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple to-do list made with React.js.
+Features Add items to the list. Remove items from the list. Mark items as completed. Known Issues List doesn&amp;rsquo;t save when refreshing the page. </description>
     </item>
     
     <item>
@@ -33,8 +34,8 @@ Code</description>
       <pubDate>Thu, 18 Aug 2022 12:10:18 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/react-static-restaurant/</guid>
-      <description>Demo
-Code</description>
+      <description>Description Simple restaurant front page website made with React.js. Site doesn&amp;rsquo;t offer any functionality and was just made to try out React.
+Acknowledgments freepic</description>
     </item>
     
   </channel>

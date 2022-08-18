@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>c# on Vilmantas Jakniūnas Portfolio</title>
-    <link>https://vilmokas.github.io/tags/c#/</link>
-    <description>Recent content in c# on Vilmantas Jakniūnas Portfolio</description>
+    <title>android on Vilmantas Jakniūnas Portfolio</title>
+    <link>https://vilmokas.github.io/tags/android/</link>
+    <description>Recent content in android on Vilmantas Jakniūnas Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 18:15:26 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2022 18:15:26 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stack Clone</title>
       <link>https://vilmokas.github.io/posts/stack-clone/</link>
@@ -25,16 +25,6 @@ Features Tap the screen to place the block Split block into two parts, one part 
       <guid>https://vilmokas.github.io/posts/flappy-bird-clone/</guid>
       <description>Description Flappy bird was a very popular mobile game when I was in still in school, so now, when I learned more about game development, I wanted to recreate it.
 Features Tap the screen to add force to the bird. End game when bird hits a pipe or ground. Display current and highest scores. Acknowledgments Dong NguyenFlappy Bird</description>
-    </item>
-    
-    <item>
-      <title>Global Game Jam 2020 - Scepter Repairs</title>
-      <link>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</link>
-      <pubDate>Thu, 18 Aug 2022 12:32:39 +0300</pubDate>
-      
-      <guid>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</guid>
-      <description>Description Global Game Jam 2020 game made focusing on the theme &amp;ldquo;Repair&amp;rdquo;. In this game player has to repair other mages&amp;rsquo; scepters by saying the correct combination of spells. If player doesn&amp;rsquo;t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
-Features 3d point and click movement Spell casting by selecting runes shows on screen Acknowledgments Ričardas</description>
     </item>
     
   </channel>

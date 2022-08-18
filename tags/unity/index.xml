@@ -6,14 +6,35 @@
     <description>Recent content in unity on Vilmantas Jakniūnas Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 12:32:39 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2022 18:15:26 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stack Clone</title>
+      <link>https://vilmokas.github.io/posts/stack-clone/</link>
+      <pubDate>Thu, 18 Aug 2022 18:15:26 +0300</pubDate>
+      
+      <guid>https://vilmokas.github.io/posts/stack-clone/</guid>
+      <description>Description Stack is a very popular android game where player has to click the screen when block is over the pillar. Part of the block which is not over the pillar, gets cut off and new, smaller, block is spawned in old block&amp;rsquo;s place.
+Features Tap the screen to place the block Split block into two parts, one part which stays on the pillar and other which falls. Display high-score.</description>
+    </item>
+    
+    <item>
+      <title>Flappy Bird Clone</title>
+      <link>https://vilmokas.github.io/posts/flappy-bird-clone/</link>
+      <pubDate>Thu, 18 Aug 2022 18:14:59 +0300</pubDate>
+      
+      <guid>https://vilmokas.github.io/posts/flappy-bird-clone/</guid>
+      <description>Description Flappy bird was a very popular mobile game when I was in still in school, so now, when I learned more about game development, I wanted to recreate it.
+Features Tap the screen to add force to the bird. End game when bird hits a pipe or ground. Display current and highest scores. Acknowledgments Dong NguyenFlappy Bird</description>
+    </item>
+    
     <item>
       <title>Global Game Jam 2020 - Scepter Repairs</title>
       <link>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</link>
       <pubDate>Thu, 18 Aug 2022 12:32:39 +0300</pubDate>
       
       <guid>https://vilmokas.github.io/posts/ggj2020-scepter-repairs/</guid>
-      <description>Demo</description>
+      <description>Description Global Game Jam 2020 game made focusing on the theme &amp;ldquo;Repair&amp;rdquo;. In this game player has to repair other mages&amp;rsquo; scepters by saying the correct combination of spells. If player doesn&amp;rsquo;t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
+Features 3d point and click movement Spell casting by selecting runes shows on screen Acknowledgments Ričardas</description>
     </item>
     
   </channel>
