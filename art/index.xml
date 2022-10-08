@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arts on Vilmantas Jakniūnas Portfolio</title>
+    <link>https://vilmokas.github.io/art/</link>
+    <description>Recent content in Arts on Vilmantas Jakniūnas Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Oct 2022 20:18:23 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rock Studies</title>
+      <link>https://vilmokas.github.io/art/rock-studies/</link>
+      <pubDate>Thu, 06 Oct 2022 20:18:23 +0300</pubDate>
+      
+      <guid>https://vilmokas.github.io/art/rock-studies/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

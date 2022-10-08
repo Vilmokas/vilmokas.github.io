@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>HTML 5 Color Picker | Vilmantas Jakniūnas Portfolio</title>
+<meta name="keywords" content="html, css, javascript">
+<meta name="description" content="Description Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+Features Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus">
+<meta name="author" content="">
+<link rel="canonical" href="https://vilmokas.github.io/programming/html5-color-picker/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5beb08afe11545353a43fddf46ea89edc13d72a3d0c0323ee8116ac00a804953.css" integrity="" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity=""
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://vilmokas.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vilmokas.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vilmokas.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vilmokas.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vilmokas.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="HTML 5 Color Picker" />
+<meta property="og:description" content="Description Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+Features Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vilmokas.github.io/programming/html5-color-picker/" />
+<meta property="og:image" content="https://vilmokas.github.io/004.png" /><meta property="article:section" content="programming" />
+<meta property="article:published_time" content="2022-08-18T12:33:24&#43;03:00" />
+<meta property="article:modified_time" content="2022-08-18T12:33:24&#43;03:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://vilmokas.github.io/004.png" />
+<meta name="twitter:title" content="HTML 5 Color Picker"/>
+<meta name="twitter:description" content="Description Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+Features Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Programmings",
+      "item": "https://vilmokas.github.io/programming/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "HTML 5 Color Picker",
+      "item": "https://vilmokas.github.io/programming/html5-color-picker/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "HTML 5 Color Picker",
+  "name": "HTML 5 Color Picker",
+  "description": "\rDescription Simple HTML 5 Canvas project, where you can select any color from the color wheel.\nProject was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.\nFeatures Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus\r",
+  "keywords": [
+    "html", "css", "javascript"
+  ],
+  "articleBody": "\rDescription Simple HTML 5 Canvas project, where you can select any color from the color wheel.\nProject was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.\nFeatures Select hue. Select brightness and saturation. Update selected color code. Known Issues Selected color is not centered. Selected color box is not changing color. Acknowledgments Coolorus\r",
+  "wordCount" : "66",
+  "inLanguage": "en",
+  "image":"https://vilmokas.github.io/004.png","datePublished": "2022-08-18T12:33:24+03:00",
+  "dateModified": "2022-08-18T12:33:24+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vilmokas.github.io/programming/html5-color-picker/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vilmantas Jakniūnas Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vilmokas.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vilmokas.github.io/" accesskey="h" title="Vilmantas Jakniūnas Portfolio (Alt + H)">Vilmantas Jakniūnas Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vilmokas.github.io/art/" title="Art"
+                >
+                    <span>Art</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vilmokas.github.io/programming/" title="Programming"
+                >
+                    <span>Programming</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Vilmokas" title="Github"
+                 target="_blank"
+                >
+                    <span>Github</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Vilmokas" title="Twitter"
+                 target="_blank"
+                >
+                    <span>Twitter</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      HTML 5 Color Picker
+    </h1>
+    <div class="post-meta"><span title='2022-08-18 12:33:24 +0300 EEST'>August 18, 2022</span>
+
+</div>
+  </header> 
+  <a href="https://laughing-rosalind-10d687.netlify.app/" target="_blank"><div class="post-url">Demo&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg></div></a>
+  <a href="https://github.com/Vilmokas/photoshop-color-wheel" target="_blank"><div class="post-url">Code&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg></div></a>
+  <div class="post-content"><p><img loading="lazy" src="/004.png#center" alt="cover image"  />
+</p>
+<h2 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h2>
+<p>Simple HTML 5 Canvas project, where you can select any color from the color wheel.<br>
+Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.</p>
+<h2 id="features">Features<a hidden class="anchor" aria-hidden="true" href="#features">#</a></h2>
+<ul>
+<li>Select hue.</li>
+<li>Select brightness and saturation.</li>
+<li>Update selected color code.</li>
+</ul>
+<h2 id="known-issues">Known Issues<a hidden class="anchor" aria-hidden="true" href="#known-issues">#</a></h2>
+<ul>
+<li>Selected color is not centered.</li>
+<li>Selected color box is not changing color.</li>
+</ul>
+<h2 id="acknowledgments">Acknowledgments<a hidden class="anchor" aria-hidden="true" href="#acknowledgments">#</a></h2>
+<ul>
+<li>
+<a href="https://coolorus.com/" target="_blank">
+    Coolorus
+    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+    stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+    <path d="M15 3h6v6"></path>
+    <path d="M10 14L21 3"></path>
+    </svg>
+</a></li>
+</ul>
+
+
+  </div>
+
+  
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://vilmokas.github.io/tags/html/">html</a></li>
+      <li><a href="https://vilmokas.github.io/tags/css/">css</a></li>
+      <li><a href="https://vilmokas.github.io/tags/javascript/">javascript</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://vilmokas.github.io/">Vilmantas Jakniūnas Portfolio</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg></a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg></a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

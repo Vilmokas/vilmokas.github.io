@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vilmokas.github.io/tags/art/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
+    <loc>https://vilmokas.github.io/posts/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
+    <loc>https://vilmokas.github.io/posts/rock-studies/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
+    <loc>https://vilmokas.github.io/tags/studies/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
+    <loc>https://vilmokas.github.io/tags/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
+    <loc>https://vilmokas.github.io/</loc>
+    <lastmod>2022-10-06T20:18:23+03:00</lastmod>
+  </url><url>
     <loc>https://vilmokas.github.io/tags/android/</loc>
     <lastmod>2022-08-18T18:15:26+03:00</lastmod>
   </url><url>
     <loc>https://vilmokas.github.io/tags/c#/</loc>
     <lastmod>2022-08-18T18:15:26+03:00</lastmod>
   </url><url>
-    <loc>https://vilmokas.github.io/posts/</loc>
+    <loc>https://vilmokas.github.io/tags/programming/</loc>
     <lastmod>2022-08-18T18:15:26+03:00</lastmod>
   </url><url>
     <loc>https://vilmokas.github.io/posts/stack-clone/</loc>
     <lastmod>2022-08-18T18:15:26+03:00</lastmod>
   </url><url>
-    <loc>https://vilmokas.github.io/tags/</loc>
-    <lastmod>2022-08-18T18:15:26+03:00</lastmod>
-  </url><url>
     <loc>https://vilmokas.github.io/tags/unity/</loc>
-    <lastmod>2022-08-18T18:15:26+03:00</lastmod>
-  </url><url>
-    <loc>https://vilmokas.github.io/</loc>
     <lastmod>2022-08-18T18:15:26+03:00</lastmod>
   </url><url>
     <loc>https://vilmokas.github.io/posts/flappy-bird-clone/</loc>
