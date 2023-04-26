@@ -1,31 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>react on Vilmantas Jakniūnas Portfolio</title>
-    <link>https://vilmokas.github.io/tags/react/</link>
-    <description>Recent content in react on Vilmantas Jakniūnas Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 12:33:04 +0300</lastBuildDate><atom:link href="https://vilmokas.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>React To-Do List</title>
-      <link>https://vilmokas.github.io/posts/react-to-do-list/</link>
-      <pubDate>Thu, 18 Aug 2022 12:33:04 +0300</pubDate>
-      
-      <guid>https://vilmokas.github.io/posts/react-to-do-list/</guid>
-      <description>Description Simple to-do list made with React.js.
-Features Add items to the list. Remove items from the list. Mark items as completed. Known Issues List doesn&amp;rsquo;t save when refreshing the page. </description>
-    </item>
-    
-    <item>
-      <title>React Static Restaurant</title>
-      <link>https://vilmokas.github.io/posts/react-static-restaurant/</link>
-      <pubDate>Thu, 18 Aug 2022 12:10:18 +0300</pubDate>
-      
-      <guid>https://vilmokas.github.io/posts/react-static-restaurant/</guid>
-      <description>Description Simple restaurant front page website made with React.js. Site doesn&amp;rsquo;t offer any functionality and was just made to try out React.
-Acknowledgments freepic</description>
-    </item>
-    
-  </channel>
-</rss>
