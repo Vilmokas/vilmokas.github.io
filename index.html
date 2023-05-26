@@ -18,256 +18,127 @@
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css"/>
   </head>
   <body>
-    <header>
-      <nav
-        class="navbar navbar-expand-md bg-body-tertiary"
-        data-bs-theme="dark"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="#">Vilmantas Jakniūnas Portfolio</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <div class="container text-center mt-5">
-      <h2>About Me</h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <span>
-            Hi there! I'm a game developer who loves creating immersive and fun
-            experiences using Unity and C#. I have also worked on some web
-            projects using JavaScript and HTML/CSS. In my spare time, I enjoy
-            participating in game jams and sketching various characters and
-            scenes. I'm always open to new challenges and opportunities to learn
-            and grow as a developer and an artist.
-          </span>
-        </div>
-      </div>
-      <div class="row align-items-start mt-2">
-        <div class="col">
-          <ul class="justify-content-center list-unstyled d-flex">
-            <li class="ms-3">
-              <a
-                class="text-muted"
-                href="https://github.com/Vilmokas"
-                target="_blank"
-                ><i class="bi bi-github"></i
-              ></a>
+    <nav
+      class="navbar fixed-top navbar-expand-md bg-body-tertiary"
+      data-bs-theme="light"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Vilmokas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="ms-3">
-              <a
-                class="text-muted"
-                href="https://twitter.com/Vilmokas"
-                target="_blank"
-                ><i class="bi bi-twitter"></i
-              ></a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
             </li>
-            <li class="ms-3">
-              <a
-                class="text-muted"
-                href="https://www.instagram.com/vilmokas/"
-                target="_blank"
-                ><i class="bi bi-instagram"></i
-              ></a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="container text-center mt-5">
-      <h2>Featured Projects</h2>
-      <div
-        class="mt-1 row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 g-4"
-      >
-        <div class="col">
-          <div class="card">
-            <img
-              src="./assets/images/covers/cover001.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Overgrown</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Global Game Jam 2023
-              </h6>
-              <p class="card-text">
-                The idea of the game is to control roots of the plants you've
-                placed, collect nutrients and other seed variants.
-              </p>
-              <span class="badge bg-secondary">Unity</span>
-              <span class="badge bg-secondary">C#</span>
-              <span class="badge bg-secondary">Photoshop</span>
-              <span class="badge bg-secondary">Game Jam</span>
-            </div>
-            <div class="card-footer">
-              <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank"
-                ><span class="badge bg-primary"
-                  ><i class="bi bi-github"></i> code</span
-                ></a
-              >
-              <a href="https://vilmokas.itch.io/ggj2023-overgrown" target="_blank"
-                ><span class="badge bg-primary">
-                    <i class="bi bi-play"></i></i> demo</span
-                ></a
-              >
-            </div>
+      <div id="about-me" class="container text-center mt-5 pt-5">
+        <h2>About Me</h2>
+        <div class="row align-items-start">
+          <div class="col">
+            <span>
+              Hi there! I'm a game developer who loves creating immersive and fun
+              experiences using Unity and C#. I have also worked on some web
+              projects using JavaScript and HTML/CSS. In my spare time, I enjoy
+              participating in game jams and sketching various characters and
+              scenes. I'm always open to new challenges and opportunities to learn
+              and grow as a developer and an artist.
+            </span>
           </div>
         </div>
-        
-        <div class="col">
-            <div class="card">
-              <img
-                src="./assets/images/covers/cover002.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Color Picker</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">
-                  Photoshop Add-on
-                </h6>
-                <p class="card-text">
-                    Simple HTML 5 Canvas project, where you can select any color from the color wheel.
-                    Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
-                </p>
-                <span class="badge bg-secondary">Javascript</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-secondary">CSS</span>
-                <span class="badge bg-secondary">Photoshop</span>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/Vilmokas/photoshop-color-wheel" target="_blank"
-                  ><span class="badge bg-primary"
-                    ><i class="bi bi-github"></i> code</span
-                  ></a
-                >
-                <a href="https://laughing-rosalind-10d687.netlify.app/" target="_blank"
-                  ><span class="badge bg-primary">
-                      <i class="bi bi-play"></i></i> demo</span
-                  ></a
-                >
-              </div>
-            </div>
-          </div>
-        
+        <div class="row align-items-start mt-2">
           <div class="col">
-            <div class="card">
-              <img
-                src="./assets/images/covers/cover003.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">To-Do List</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">
-                  React Project
-                </h6>
-                <p class="card-text">
-                    Simple to-do list app, made with React.js.
-                </p>
-                <span class="badge bg-secondary">React</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-secondary">CSS</span>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/Vilmokas/react-to-do" target="_blank"
-                  ><span class="badge bg-primary"
-                    ><i class="bi bi-github"></i> code</span
-                  ></a
-                >
-                <a href="https://happy-lovelace-61cde5.netlify.app/" target="_blank"
-                  ><span class="badge bg-primary">
-                      <i class="bi bi-play"></i></i> demo</span
-                  ></a
-                >
-              </div>
-            </div>
+            <ul class="justify-content-center list-unstyled d-flex">
+              <li class="ms-3">
+                <a
+                  class="text-muted"
+                  href="https://github.com/Vilmokas"
+                  target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="text-muted"
+                  href="https://twitter.com/Vilmokas"
+                  target="_blank"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="text-muted"
+                  href="https://www.instagram.com/vilmokas/"
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </div>
 
+      <div class="container text-center mt-5">
+        <h2 id="projects">Featured Projects</h2>
+        <div
+          class="mt-1 row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 g-4"
+        >
           <div class="col">
             <div class="card">
               <img
-                src="./assets/images/covers/cover004.png"
+                src="./assets/images/covers/cover001.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Scepter Repairs</h5>
+                <h5 class="card-title">Overgrown</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">
-                Global Game Jam 2020
+                  Global Game Jam 2023
                 </h6>
                 <p class="card-text">
-                    In this game player has to repair other mages’ scepters by saying the correct combination of spells. If player doesn’t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
+                  The idea of the game is to control roots of the plants you've
+                  placed, collect nutrients and other seed variants.
                 </p>
                 <span class="badge bg-secondary">Unity</span>
-              <span class="badge bg-secondary">C#</span>
-              <span class="badge bg-secondary">Game Jam</span>
+                <span class="badge bg-secondary">C#</span>
+                <span class="badge bg-secondary">Photoshop</span>
+                <span class="badge bg-secondary">Game Jam</span>
               </div>
               <div class="card-footer">
-                <a href="https://globalgamejam.org/2020/games/wizard-support-desk-9/" target="_blank"
-                  ><span class="badge bg-primary">
-                      <i class="bi bi-play"></i></i> demo</span
-                  ></a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/images/covers/cover005.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Restaurant Page</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">
-                  React Project
-                </h6>
-                <p class="card-text">
-                    Simple restaurant front page website made with React.js. Site doesn’t offer any functionality and was just made to try out React.
-                </p>
-                <span class="badge bg-secondary">React</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-secondary">CSS</span>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/Vilmokas/restaurant" target="_blank"
+                <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank"
                   ><span class="badge bg-primary"
                     ><i class="bi bi-github"></i> code</span
                   ></a
                 >
-                <a href="https://vilmantas-restaurant-react.netlify.app/" target="_blank"
+                <a href="https://vilmokas.itch.io/ggj2023-overgrown" target="_blank"
                   ><span class="badge bg-primary">
                       <i class="bi bi-play"></i></i> demo</span
                   ></a
@@ -275,9 +146,142 @@
               </div>
             </div>
           </div>
-        
+          
+          <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/covers/cover002.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Color Picker</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    Photoshop Add-on
+                  </h6>
+                  <p class="card-text">
+                      Simple HTML 5 Canvas project, where you can select any color from the color wheel.
+                      Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
+                  </p>
+                  <span class="badge bg-secondary">Javascript</span>
+                  <span class="badge bg-secondary">HTML</span>
+                  <span class="badge bg-secondary">CSS</span>
+                  <span class="badge bg-secondary">Photoshop</span>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/Vilmokas/photoshop-color-wheel" target="_blank"
+                    ><span class="badge bg-primary"
+                      ><i class="bi bi-github"></i> code</span
+                    ></a
+                  >
+                  <a href="https://laughing-rosalind-10d687.netlify.app/" target="_blank"
+                    ><span class="badge bg-primary">
+                        <i class="bi bi-play"></i></i> demo</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+          
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/covers/cover003.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">To-Do List</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    React Project
+                  </h6>
+                  <p class="card-text">
+                      Simple to-do list app, made with React.js.
+                  </p>
+                  <span class="badge bg-secondary">React</span>
+                  <span class="badge bg-secondary">HTML</span>
+                  <span class="badge bg-secondary">CSS</span>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/Vilmokas/react-to-do" target="_blank"
+                    ><span class="badge bg-primary"
+                      ><i class="bi bi-github"></i> code</span
+                    ></a
+                  >
+                  <a href="https://happy-lovelace-61cde5.netlify.app/" target="_blank"
+                    ><span class="badge bg-primary">
+                        <i class="bi bi-play"></i></i> demo</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/covers/cover004.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Scepter Repairs</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Global Game Jam 2020
+                  </h6>
+                  <p class="card-text">
+                      In this game player has to repair other mages’ scepters by saying the correct combination of spells. If player doesn’t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
+                  </p>
+                  <span class="badge bg-secondary">Unity</span>
+                <span class="badge bg-secondary">C#</span>
+                <span class="badge bg-secondary">Game Jam</span>
+                </div>
+                <div class="card-footer">
+                  <a href="https://globalgamejam.org/2020/games/wizard-support-desk-9/" target="_blank"
+                    ><span class="badge bg-primary">
+                        <i class="bi bi-play"></i></i> demo</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/covers/cover005.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Restaurant Page</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    React Project
+                  </h6>
+                  <p class="card-text">
+                      Simple restaurant front page website made with React.js. Site doesn’t offer any functionality and was just made to try out React.
+                  </p>
+                  <span class="badge bg-secondary">React</span>
+                  <span class="badge bg-secondary">HTML</span>
+                  <span class="badge bg-secondary">CSS</span>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/Vilmokas/restaurant" target="_blank"
+                    ><span class="badge bg-primary"
+                      ><i class="bi bi-github"></i> code</span
+                    ></a
+                  >
+                  <a href="https://vilmantas-restaurant-react.netlify.app/" target="_blank"
+                    ><span class="badge bg-primary">
+                        <i class="bi bi-play"></i></i> demo</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+          
+        </div>
       </div>
-    </div>
 
     <div class="container">
       <footer
