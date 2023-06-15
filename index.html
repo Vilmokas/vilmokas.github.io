@@ -19,7 +19,7 @@
   </head>
   <body>
     <nav
-      class="navbar fixed-top navbar-expand-md bg-body-tertiary"
+      class="navbar navbar-expand-md bg-body-primary"
       data-bs-theme="light"
     >
       <div class="container">
@@ -41,13 +41,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+              <a class="nav-link" aria-current="page" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+              <a class="nav-link" aria-current="page" href="#game-jams">Game Jams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contacts">Contacts</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Features</a>
@@ -61,17 +64,39 @@
     </nav>
 
       <div id="about-me" class="container text-center mt-5 pt-5">
-        <h2>About Me</h2>
-        <div class="row align-items-start">
+        <h1>About Me</h1>
+        <!-- <div class="row align-items-start">
           <div class="col">
             <span>
               Hi there! I'm a game developer who loves creating immersive and fun
-              experiences using Unity and C#. I have also worked on some web
-              projects using JavaScript and HTML/CSS. In my spare time, I enjoy
+              experiences using Unity and C#. In my spare time, I enjoy
               participating in game jams and sketching various characters and
               scenes. I'm always open to new challenges and opportunities to learn
               and grow as a developer and an artist.
             </span>
+          </div>
+        </div> -->
+        <div class="mt-4 row justify-content-md-center">
+          <div class="col-md-7">
+            <div class="card project" style="border: none;">
+              <div class="card-body">
+                <h5>
+                <p class="card-subtitle mb-2 text-body-secondary">
+                    Hi there! I'm a game developer who loves creating immersive and fun
+                    experiences using Unity and C#. In my spare time, I enjoy
+                    participating in game jams and sketching various characters and
+                    scenes. I'm always open to new challenges and opportunities to learn
+                    and grow as a developer and an artist.
+                </p>
+              </h5>
+              </div>
+              <img
+                src="./assets/images/ai-vector-test.png"
+                class="card-img-top"
+                alt="..."
+                style="width: 30%;"
+              />
+            </div>
           </div>
         </div>
         <!-- <div class="row align-items-start mt-2">
@@ -106,12 +131,85 @@
         </div> -->
       </div>
 
-      <div class="container text-center mt-5">
-        <h2 id="projects">Projects</h2>
+      <div id="projects" class="container text-center mt-2 pt-3">
+        <h2>Projects</h2>
+
+        <div class="mt-4 row justify-content-md-center">
+          <div class="col-md-auto">
+            <div class="card project" style="border: none;">
+              <img
+                src="./assets/images/covers/cover001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Overgrown</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Global Game Jam 2023
+                </h6>
+                <p class="card-text text-body-secondary">
+                  The idea of the game is to control roots of the plants you've
+                  placed, collect nutrients and other seed variants.
+                </p>
+                <h5>
+                  <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank"
+                  ><span class="badge bg-primary"
+                    ><i class="bi bi-github"></i> code</span
+                  ></a
+                >
+                <a href="https://vilmokas.itch.io/ggj2023-overgrown" target="_blank"
+                  ><span class="badge bg-primary">
+                      <i class="bi bi-play"></i></i> demo</span
+                  ></a
+                >
+              </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 row justify-content-md-center">
+          <div class="col-md-auto">
+            <div class="card project" style="border: none;">
+              <div class="card-body">
+                <h3 class="card-title">Overgrown</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Global Game Jam 2023
+                </h6>
+                <p class="card-text text-body-secondary">
+                  The idea of the game is to control roots of the plants you've
+                  placed, collect nutrients and other seed variants.
+                </p>
+                <h5>
+                  <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank"
+                  ><span class="badge bg-primary"
+                    ><i class="bi bi-github"></i> code</span
+                  ></a
+                >
+                <a href="https://vilmokas.itch.io/ggj2023-overgrown" target="_blank"
+                  ><span class="badge bg-primary">
+                      <i class="bi bi-play"></i></i> demo</span
+                  ></a
+                >
+                </h5>
+              </div>
+              <img
+                src="./assets/images/covers/cover001.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="game-jams" class="container text-center mt-3 pt-5">
+        <h2>Game Jams</h2>
         <div
-          class="mt-1 row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 g-4"
+          class="mt-1 row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 g-4 d-flex justify-content-center"
         >
-          <div class="col">
+          <div class="col d-flex justify-content-center">
             <div class="card">
               <img
                 src="./assets/images/covers/cover001.png"
@@ -123,14 +221,9 @@
                 <h6 class="card-subtitle mb-2 text-body-secondary">
                   Global Game Jam 2023
                 </h6>
-                <p class="card-text">
-                  The idea of the game is to control roots of the plants you've
-                  placed, collect nutrients and other seed variants.
+                <p class="card-text text-body-secondary">
+                  Plant growing, root controlling, snake-like game.
                 </p>
-                <span class="badge bg-secondary">Unity</span>
-                <span class="badge bg-secondary">C#</span>
-                <span class="badge bg-secondary">Photoshop</span>
-                <span class="badge bg-secondary">Game Jam</span>
               </div>
               <div class="card-footer">
                 <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank"
@@ -146,78 +239,39 @@
               </div>
             </div>
           </div>
-          
-          <div class="col">
-              <div class="card">
-                <img
-                  src="./assets/images/covers/cover002.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Color Picker</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">
-                    Photoshop Add-on
-                  </h6>
-                  <p class="card-text">
-                      Simple HTML 5 Canvas project, where you can select any color from the color wheel.
-                      Project was made as a Photoshop add-on, but is no longer needed as Photoshop now provides triangular color wheel as a default option.
-                  </p>
-                  <span class="badge bg-secondary">Javascript</span>
-                  <span class="badge bg-secondary">HTML</span>
-                  <span class="badge bg-secondary">CSS</span>
-                  <span class="badge bg-secondary">Photoshop</span>
-                </div>
-                <div class="card-footer">
-                  <a href="https://github.com/Vilmokas/photoshop-color-wheel" target="_blank"
-                    ><span class="badge bg-primary"
-                      ><i class="bi bi-github"></i> code</span
-                    ></a
-                  >
-                  <a href="https://laughing-rosalind-10d687.netlify.app/" target="_blank"
-                    ><span class="badge bg-primary">
-                        <i class="bi bi-play"></i></i> demo</span
-                    ></a
-                  >
-                </div>
-              </div>
-            </div>
-          
-            <div class="col">
-              <div class="card">
-                <img
-                  src="./assets/images/covers/cover003.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">To-Do List</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">
-                    React Project
-                  </h6>
-                  <p class="card-text">
-                      Simple to-do list app, made with React.js.
-                  </p>
-                  <span class="badge bg-secondary">React</span>
-                  <span class="badge bg-secondary">HTML</span>
-                  <span class="badge bg-secondary">CSS</span>
-                </div>
-                <div class="card-footer">
-                  <a href="https://github.com/Vilmokas/react-to-do" target="_blank"
-                    ><span class="badge bg-primary"
-                      ><i class="bi bi-github"></i> code</span
-                    ></a
-                  >
-                  <a href="https://happy-lovelace-61cde5.netlify.app/" target="_blank"
-                    ><span class="badge bg-primary">
-                        <i class="bi bi-play"></i></i> demo</span
-                    ></a
-                  >
-                </div>
-              </div>
-            </div>
 
-            <div class="col">
+          <div class="col d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="./assets/images/covers/cover006.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cat in a Box</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Global Game Jam 2022
+                </h6>
+                <p class="card-text text-body-secondary">
+                  Platformer, where you control two cats to reach the top and push a cup down.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/Vilmokas/ggj2022-cat-in-a-box" target="_blank"
+                  ><span class="badge bg-primary"
+                    ><i class="bi bi-github"></i> code</span
+                  ></a
+                >
+                <a href="https://globalgamejam.org/2022/games/cat-box-3" target="_blank"
+                  ><span class="badge bg-primary">
+                      <i class="bi bi-play"></i></i> demo</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+
+            <div class="col d-flex justify-content-center">
               <div class="card">
                 <img
                   src="./assets/images/covers/cover004.png"
@@ -229,12 +283,9 @@
                   <h6 class="card-subtitle mb-2 text-body-secondary">
                   Global Game Jam 2020
                   </h6>
-                  <p class="card-text">
-                      In this game player has to repair other mages’ scepters by saying the correct combination of spells. If player doesn’t repair enough scepters, dungeon boss gets mads and starts attacking, ending the game.
+                  <p class="card-text text-body-secondary">
+                      Casual, isometric repair shop worker game.
                   </p>
-                  <span class="badge bg-secondary">Unity</span>
-                <span class="badge bg-secondary">C#</span>
-                <span class="badge bg-secondary">Game Jam</span>
                 </div>
                 <div class="card-footer">
                   <a href="https://globalgamejam.org/2020/games/wizard-support-desk-9/" target="_blank"
@@ -246,32 +297,24 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col d-flex justify-content-center">
               <div class="card">
                 <img
-                  src="./assets/images/covers/cover005.png"
+                  src="./assets/images/covers/cover007.png"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Restaurant Page</h5>
+                  <h5 class="card-title">Laundry Dog</h5>
                   <h6 class="card-subtitle mb-2 text-body-secondary">
-                    React Project
+                  Global Game Jam 2019
                   </h6>
-                  <p class="card-text">
-                      Simple restaurant front page website made with React.js. Site doesn’t offer any functionality and was just made to try out React.
+                  <p class="card-text text-body-secondary">
+                      Casual RPG where you control a dog to complete quests around the house.
                   </p>
-                  <span class="badge bg-secondary">React</span>
-                  <span class="badge bg-secondary">HTML</span>
-                  <span class="badge bg-secondary">CSS</span>
                 </div>
                 <div class="card-footer">
-                  <a href="https://github.com/Vilmokas/restaurant" target="_blank"
-                    ><span class="badge bg-primary"
-                      ><i class="bi bi-github"></i> code</span
-                    ></a
-                  >
-                  <a href="https://vilmantas-restaurant-react.netlify.app/" target="_blank"
+                  <a href="https://globalgamejam.org/2019/games/laundry-dog" target="_blank"
                     ><span class="badge bg-primary">
                         <i class="bi bi-play"></i></i> demo</span
                     ></a
@@ -279,7 +322,96 @@
                 </div>
               </div>
             </div>
-          
+        </div>
+      </div>
+
+      <div class="container text-center mt-2 pt-2">
+
+        <div class="mt-2 row justify-content-md-center">
+      <p>
+        <a data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Show more...
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div
+          class="mt-1 row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 g-4 d-flex justify-content-center"
+        >
+
+        <div class="col d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./assets/images/covers/cover008.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">TV Runner</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+              Global Game Jam 2018
+              </h6>
+              <p class="card-text text-body-secondary">
+                  Endless VR runner.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://globalgamejam.org/2018/games/tv-runner" target="_blank"
+                ><span class="badge bg-primary">
+                    <i class="bi bi-play"></i></i> demo</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./assets/images/covers/cover009.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Road to Alerad</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+              Global Game Jam 2017
+              </h6>
+              <p class="card-text text-body-secondary">
+                  Platformer set in an alien planet.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://globalgamejam.org/2017/games/road-alerad" target="_blank"
+                ><span class="badge bg-primary">
+                    <i class="bi bi-play"></i></i> demo</span
+                ></a
+              >
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <div id="contacts" class="container text-center mt-5 pt-5">
+        <h2>Contacts</h2>
+
+        <div class="mt-2 row justify-content-md-center">
+          <div class="col-md-auto">
+            <div class="card project">
+              <div class="card-body">
+                <p class="card-text">
+                  <h5><b>Email: </b> <a href="mailto:vilmantas.jakniunas@gmail.com"><span class="badge bg-secondary">vilmantas.jakniunas@gmail.com</span></a></h5>
+                  <h5><b>Github: </b> <a href="https://github.com/Vilmokas" target="_blank"><span class="badge bg-secondary">vilmokas</span></a></h5>
+                  <h5><b>Linkedin: </b> <a href="https://www.linkedin.com/in/vilmokas" target="_blank"><span class="badge bg-secondary">vilmokas</span></a></h5>
+                  <h5><b>Twitter: </b> <a href="https://twitter.com/Vilmokas" target="_blank"><span class="badge bg-secondary">vilmokas</span></a></h5>
+                  <h5><b>Instagram: </b> <a href="https://www.instagram.com/vilmokas" target="_blank"><span class="badge bg-secondary">vilmokas</span></a></h5>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -292,6 +424,13 @@
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="mailto:vilmantas.jakniunas@gmail.com"
+              ><i class="bi bi-envelope"></i
+            ></a>
+          </li>
           <li class="ms-3">
             <a
               class="text-muted"

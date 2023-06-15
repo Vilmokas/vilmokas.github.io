@@ -13,3 +13,22 @@ footer, .badge {
   max-height: 175px;
   object-fit: cover;
 }
+
+.project {
+  flex-direction: row;
+  align-items: center;
+  max-width: 1000px;
+  margin-bottom: 50px;
+}
+
+.project img {
+  max-height: 400px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+  width: 50%;
+  height: 100%;
+}
+
+#contacts .card {
+  border: none;
+}
