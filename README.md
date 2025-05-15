@@ -2,7 +2,7 @@
 
 Repository for my personal page
 
-![version](https://badgen.net/badge/version/3.0.1/blue) ![language](https://badgen.net/badge/language/English/cyan)
+![version](https://badgen.net/badge/version/4.0.0/blue) ![language](https://badgen.net/badge/language/English/cyan)
 
 ## Contents
 
