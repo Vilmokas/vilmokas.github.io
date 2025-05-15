@@ -14,5 +14,6 @@ Repository for my personal page
 
 ## Major Changes
 
-- 3.0.0 - Moved to vanilla Javascript, CSS and HTML with Bootstrap
-- 2.0.0 - Move to Hugo.io
+- 4.0.0 - Changed layout to a simple version, displaying only recent projects with images.
+- 3.0.0 - Moved to vanilla Javascript, CSS and HTML with Bootstrap.
+- 2.0.0 - Move to Hugo.io.
