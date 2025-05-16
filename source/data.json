@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "image": "cover010.png",
+      "image": "cover010.webp",
       "title": "Fall for Fruit",
       "subtitle": "Project for Unity's Jr. Programmer course",
       "description": "Casual game where you control a young farmer who is trying to catch falling fruit from the tree.",
@@ -11,56 +11,56 @@
   ],
   "gamejams": [
     {
-      "image": "cover013.png",
+      "image": "cover013.webp",
       "title": "One Favor At a Time",
       "subtitle": "Cozy Spring Game Jam 2025",
       "demo": "https://snesonix.itch.io/one-favor-at-a-time",
       "code": ""
     },
     {
-      "image": "cover012.png",
+      "image": "cover012.webp",
       "title": "Not In The Eyes",
       "subtitle": "Global Game Jam 2025",
       "demo": "https://globalgamejam.org/games/2025/not-eyes-0",
       "code": "https://github.com/Vilmokas/GlobalGameJam-2025"
     },
     {
-      "image": "cover011.png",
+      "image": "cover011.webp",
       "title": "Don't Offend the King!",
       "subtitle": "Global Game Jam 2024",
       "demo": "https://vilmokas.itch.io/dont-offend-the-king",
       "code": "https://github.com/Vilmokas/GlobalGameJam-2024"
     },
     {
-      "image": "cover001.png",
+      "image": "cover001.webp",
       "title": "Overgrown",
       "subtitle": "Global Game Jam 2023",
       "demo": "https://vilmokas.itch.io/ggj2023-overgrown",
       "code": "https://github.com/Vilmokas/GlobalGameJam-2023"
     },
     {
-      "image": "cover004.png",
+      "image": "cover004.webp",
       "title": "Scepter Repairs",
       "subtitle": "Global Game Jam 2020",
       "demo": "https://globalgamejam.org/2020/games/wizard-support-desk-9/",
       "code": ""
     },
     {
-      "image": "cover007.png",
+      "image": "cover007.webp",
       "title": "Laundry Dog",
       "subtitle": "Global Game Jam 2019",
       "demo": "https://globalgamejam.org/2019/games/laundry-dog",
       "code": ""
     },
     {
-      "image": "cover008.png",
+      "image": "cover008.webp",
       "title": "Endless VR Runner",
       "subtitle": "Global Game Jam 2018",
       "demo": "https://globalgamejam.org/2018/games/tv-runner",
       "code": ""
     },
     {
-      "image": "cover009.png",
+      "image": "cover009.webp",
       "title": "Road to Alerad",
       "subtitle": "Global Game Jam 2017",
       "demo": "https://globalgamejam.org/2017/games/road-alerad",
