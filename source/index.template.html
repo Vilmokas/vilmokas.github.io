@@ -62,24 +62,24 @@
         <h2>Projects</h2>
         <div class="mt-4 row justify-content-md-center">
           <div class="col-md-auto">
-            
+            {% for project in projects %}
             <div class="card project" style="border: none;">
               <img
-                src="./assets/images/covers/cover010.png"
+                src="./assets/images/covers/{{ project.image }}"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h3 class="card-title">Fall for Fruit</h3>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Project for Unity's Jr. Programmer course</h6>
-                <p class="card-text text-body-secondary">Casual game where you control a young farmer who is trying to catch falling fruit from the tree.</p>
+                <h3 class="card-title">{{ project.title }}</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{ project.subtitle }}</h6>
+                <p class="card-text text-body-secondary">{{ project.description }}</p>
                 <h5>
-                <a href="https://github.com/Vilmokas/Unity-FallForFruit" target="_blank"><span class="badge bg-primary"><i class="bi bi-github"></i> code</span></a>
-                <a href="https://vilmokas.itch.io/fall-for-fruit" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
+                <a href="{{ project.code }}" target="_blank"><span class="badge bg-primary"><i class="bi bi-github"></i> code</span></a>
+                <a href="{{ project.demo }}" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
               </h5>
               </div>
             </div>
-            
+            {% endfor %}
           </div>
         </div>
       </div>
@@ -90,47 +90,21 @@
         <h4 class="text-center">Latest</h4>
         <!-- Big jam games section -->
          <div class="mt-4 row justify-content-md-center">
-            
+            {% for gamejam in gamejams[:3] %}
             <div class="card game-jam" style="border: none;">
-              <img src="./assets/images/covers/cover013.png" class="card-img-top" alt="..."/>
+              <img src="./assets/images/covers/{{ gamejam.image }}" class="card-img-top" alt="..."/>
               <div class="card-body">
-                <h5 class="card-title">One Favor At a Time</h5>
-                <p class="card-subtitle mb-2 text-body-secondary">Cozy Spring Game Jam 2025</p>
-                
-                <a href="https://snesonix.itch.io/one-favor-at-a-time" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
-                
-                
+                <h5 class="card-title">{{ gamejam.title }}</h5>
+                <p class="card-subtitle mb-2 text-body-secondary">{{ gamejam.subtitle }}</p>
+                {% if gamejam.demo %}
+                <a href="{{ gamejam.demo }}" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
+                {% endif %}
+                {% if gamejam.code %}
+                <a href="{{ gamejam.code }}" target="_blank"><span class="badge bg-primary"><i class="bi bi-github"></i></i> code</span></a>
+                {% endif %}
               </div>
             </div>
-            
-            <div class="card game-jam" style="border: none;">
-              <img src="./assets/images/covers/cover012.png" class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <h5 class="card-title">Not In The Eyes</h5>
-                <p class="card-subtitle mb-2 text-body-secondary">Global Game Jam 2025</p>
-                
-                <a href="https://globalgamejam.org/games/2025/not-eyes-0" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
-                
-                
-                <a href="https://github.com/Vilmokas/GlobalGameJam-2025" target="_blank"><span class="badge bg-primary"><i class="bi bi-github"></i></i> code</span></a>
-                
-              </div>
-            </div>
-            
-            <div class="card game-jam" style="border: none;">
-              <img src="./assets/images/covers/cover011.png" class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <h5 class="card-title">Don't Offend the King!</h5>
-                <p class="card-subtitle mb-2 text-body-secondary">Global Game Jam 2024</p>
-                
-                <a href="https://vilmokas.itch.io/dont-offend-the-king" target="_blank"><span class="badge bg-primary"><i class="bi bi-play"></i></i> demo</span></a>
-                
-                
-                <a href="https://github.com/Vilmokas/GlobalGameJam-2024" target="_blank"><span class="badge bg-primary"><i class="bi bi-github"></i></i> code</span></a>
-                
-              </div>
-            </div>
-            
+            {% endfor %}
         </div>
       </div>
       
@@ -139,44 +113,16 @@
         <h4 class="text-center">Other</h4>
         <div class="mt-4 row justify-content-md-center">
           <ul>
-            
-            <li>Global Game Jam 2023 - Overgrown | 
-                
-                <a href="https://vilmokas.itch.io/ggj2023-overgrown" target="_blank">demo</a>
-                
-                
-                 ; <a href="https://github.com/Vilmokas/GlobalGameJam-2023" target="_blank">code</a>
-                
+            {% for gamejam in gamejams[3:] %}
+            <li>{{ gamejam.subtitle }} - {{ gamejam.title }} | 
+                {% if gamejam.demo %}
+                <a href="{{ gamejam.demo }}" target="_blank">demo</a>
+                {% endif %}
+                {% if gamejam.code %}
+                 ; <a href="{{ gamejam.code }}" target="_blank">code</a>
+                {% endif %}
             </li>
-            
-            <li>Global Game Jam 2020 - Scepter Repairs | 
-                
-                <a href="https://globalgamejam.org/2020/games/wizard-support-desk-9/" target="_blank">demo</a>
-                
-                
-            </li>
-            
-            <li>Global Game Jam 2019 - Laundry Dog | 
-                
-                <a href="https://globalgamejam.org/2019/games/laundry-dog" target="_blank">demo</a>
-                
-                
-            </li>
-            
-            <li>Global Game Jam 2018 - Endless VR Runner | 
-                
-                <a href="https://globalgamejam.org/2018/games/tv-runner" target="_blank">demo</a>
-                
-                
-            </li>
-            
-            <li>Global Game Jam 2017 - Road to Alerad | 
-                
-                <a href="https://globalgamejam.org/2017/games/road-alerad" target="_blank">demo</a>
-                
-                
-            </li>
-            
+            {% endfor %}
           </ul>
         </div>
       </div>
