@@ -1,77 +1,79 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+html {
+  background-color: rgb(27, 27, 27);
+  color: rgb(221, 221, 221);
+}
 
 body {
-  font-family: "Inter";
-  color: var(--main-color);
-}
-
-footer,
-.badge {
-  font-family: "Roboto", sans-serif !important;
-}
-
-.footer {
-  align-items: center;
   max-width: 720px;
+  margin: auto;
 }
 
-.card img {
-  max-height: 175px;
-  object-fit: cover;
+a {
+  color: rgb(82, 126, 207);
+  text-decoration: none;
 }
 
-.project {
-  flex-direction: row;
-  align-items: center;
-  max-width: 720px;
-  margin-bottom: 50px;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
-.game-jams-big {
-  flex-direction: row;
-  align-items: center;
-  max-width: 720px;
-  margin-bottom: 50px;
+p {
+  color: rgb(182, 182, 182);
 }
 
-.game-jams-small {
-  flex-direction: row;
-  align-items: center;
-  max-width: 720px;
-  margin-bottom: 50px;
-}
-
-.project img {
-  border-top-right-radius: 0;
-  border-bottom-left-radius: calc(0.25rem - 1px);
-  height: 100%;
-}
-
-.game-jam {
-  flex-direction: row;
-  align-items: center;
-  max-width: 720px;
-  margin-top: 24px;
-}
-
-.game-jam img {
-  max-height: 200px;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: calc(0.25rem - 1px);
-  width: 30%;
-  height: 80%;
+#about {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
-h1 {
-  margin-top: 73px;
-  margin-bottom: 50px;
-  text-align: center;
+.socials li {
+  display: inline;
+  padding-left: 16px;
 }
 
-#about {
-  margin-bottom: 50px;
+.links li {
+  display: inline;
+  padding-right: 16px;
+}
+
+article {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+article img {
+  float: left;
+  padding-right: 32px;
+}
+
+#projects img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#gamejams img {
+  width: 240px;
+  height: 100px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 64px;
+}
+
+footer ul {
+  float: right;
+}
+
+footer p {
+  width: 50%;
+  float: left;
 }
