@@ -3,7 +3,7 @@ from jinja2 import Environment, FileSystemLoader
 
 datafile = "source/data.json"
 templatefile = "source/index.template.html"
-outputfile = "index.html"
+outputfile = "public/index.html"
 
 # Load JSON data
 print("loading json data file...")
