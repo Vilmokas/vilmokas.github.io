@@ -32,6 +32,20 @@
       "code": "https://github.com/Vilmokas/GlobalGameJam-2024"
     },
     {
+      "image": "",
+      "title": "Faces in Master Paintings",
+      "subtitle": "Web App",
+      "demo": "https://vilmokas.github.io/FacesInMasterPaintings",
+      "code": "https://github.com/Vilmokas/FacesInMasterPaintings"
+    },
+    {
+      "image": "",
+      "title": "Word and Link Highlighter",
+      "subtitle": "Firefox Add-on",
+      "demo": "#",
+      "code": "https://github.com/Vilmokas/Firefox-WordAndLinkHighlighter"
+    },
+    {
       "image": "cover001.webp",
       "title": "Overgrown",
       "subtitle": "Global Game Jam 2023",
