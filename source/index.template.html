@@ -85,9 +85,12 @@
       <li>{{ gamejam.subtitle }} - {{ gamejam.title }} |
         {% if gamejam.demo %}
         <a href="{{ gamejam.demo }}" target="_blank">demo</a>
+          {% if gamejam.code %}
+          ; 
+          {% endif %}
         {% endif %}
         {% if gamejam.code %}
-        ; <a href="{{ gamejam.code }}" target="_blank">code</a>
+        <a href="{{ gamejam.code }}" target="_blank">code</a>
         {% endif %}
       </li>
       {% endfor %}
